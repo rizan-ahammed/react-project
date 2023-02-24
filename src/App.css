@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  background: transparent;
+  font-weight: normal;
+  text-decoration: none;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+body {
+  font-family: "product_sans_bold", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #1c2c40;
+  overflow-x: hidden;
+  min-width: 320px;
+  font-weight: 400;
+}
+
+input,
+textarea,
+select {
+  font-family: "product_sans_regular", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+a {
+  color: #707070;
+  font-family: "product_sans_regular", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+a.active span {
+  color: blue;
+}
+a.active img {
+  filter: none;
+}
+a.button {
+  font-size: 16px;
+}
+
+a:hover,
+.submit:hover {
+  filter: alpha(opacity=85);
+  -moz-opacity: 0.85;
+  -khtml-opacity: 0.85;
+  opacity: 0.85;
+}
+
+.thumb {
+  display: block;
+}
+
+.thumb img {
+  display: block;
+  width: 100%;
+}
+
+p {
+  line-height: 15px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #707070;
+  font-family: "product_sans_regular", sans-serif;
+}
+
+.hidden {
+  display: none;
+}
+
+br.clear {
+  clear: both;
+  line-height: 0;
+}
+
+@font-face {
+  font-family: "dm_sansregular";
+  src: url("./assets/fonts/dmsans-regular-webfont.woff2") format("woff2"),
+    url("./assets/fonts/dmsans-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "dm_sansmedium";
+  src: url("./assets/fonts/dmsans-medium-webfont.woff2") format("woff2"),
+    url("./assets/fonts/dmsans-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "dm_sansbold";
+  src: url("./assets/fonts/dmsans-bold-webfont.woff2") format("woff2"),
+    url("./assets/fonts/dmsans-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "quanticoregular";
+  src: url("./assets/fonts/quantico-regular-webfont.woff2") format("woff2"),
+    url("./assets/fonts/quantico-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "quanticobold";
+  src: url("./assets/fonts/quantico-bold-webfont.woff2") format("woff2"),
+    url("./assets/fonts/quantico-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.one {
+  background: #8dadff;
+}
+
+.two {
+  background: #8cf9fc;
+}
+
+.three {
+  background: #8dd6ff;
+}
+
+b {
+  font-family: "dm_sansbold";
+  font-size: 14px;
+}
+a.active {
+  color: #6368ea;
+}
